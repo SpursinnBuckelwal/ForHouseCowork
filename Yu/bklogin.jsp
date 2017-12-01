@@ -16,25 +16,8 @@
 <!-- Custom Theme Style -->
 <link href="<%=request.getContextPath()%>/back/css/bklogin.css" rel="stylesheet">
 
- <!-- 神奇小按鈕的script 開始-->
-    <script>
-        $(document).ready(function() {
-            $("#magicBtn1").click(function() {
-                $("#loginid").val("peter@forhouse.com");
-                $("#password").val("123456");
-            });
-            $("#magicBtn2").click(function() {
-                $("#loginid").val("yyy@forhouse.com");
-                $("#password").val("123456");
-            });
-            $("#magicBtn3").click(function() {
-                $("#loginid").val("dragon@forhouse.com");
-                $("#password").val("123456");
-            });
-        });
-    </script>
-    
 
+<script src="<%=request.getContextPath()%>/js/jquery.js"></script>
 <style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
 .login {
 	background: #EEEEEE
@@ -57,6 +40,9 @@
 }
 
 </style>
+
+
+    
 </head>
 
 <body style="background: #F7F7F7">
@@ -97,4 +83,22 @@
 
 
 </body>
+
+<!-- 神奇小按鈕的script 開始-->
+<script>
+    $(document).ready(function() {
+        $("#magicBtn1").click(function() {
+            $("#loginid").val("peter@forhouse.com");
+            $("#password").val("123456");
+        });
+        $("#magicBtn2").click(function() {
+            $("#loginid").val("yyy@forhouse.com");
+            $("#password").val("123456");
+        });
+        $("#magicBtn3").click(function() {
+            $("#loginid").val("dragon@forhouse.com");
+            $("#password").val("123456");
+        });
+    });
+</script>
 </html>
