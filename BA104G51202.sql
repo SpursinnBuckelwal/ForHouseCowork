@@ -1,4 +1,4 @@
-﻿---------------------------
+---------------------------
 DROP TABLE RESREC;
 DROP TABLE HSECOLL;
 DROP TABLE BREAKTIME;
@@ -592,7 +592,7 @@ VALUES('ART'||LPAD(TO_CHAR(SEQ_ART.NEXTVAL), 7, '0'), 'RT00000005', '下面一�
 INSERT INTO ARTICLE (Article_No, Rtr_No, Article_body, Post_date, Article_State)
 VALUES('ART'||LPAD(TO_CHAR(SEQ_ART.NEXTVAL), 7, '0'), 'RT00000006', '沒有客人，大平台', TO_DATE('20171012', 'YYYY-MM-DD'), 'ON');
 INSERT INTO ARTICLE (Article_No, Rtr_No, Article_body, Post_date, Article_State)
-VALUES('ART'||LPAD(TO_CHAR(SEQ_ART.NEXTVAL), 7, '0'), 'RT00000001', '就送大南瓜', TO_DATE('20171121', 'YYYY-MM-DD'), 'ON', 'ㄎㄎ');
+VALUES('ART'||LPAD(TO_CHAR(SEQ_ART.NEXTVAL), 7, '0'), 'RT00000001', '就送大南瓜', TO_DATE('20171121', 'YYYY-MM-DD'), 'ON');
 INSERT INTO ARTICLE (Article_No, Rtr_No, Article_body, Post_date, Article_State)
 VALUES('ART'||LPAD(TO_CHAR(SEQ_ART.NEXTVAL), 7, '0'), 'RT00000008', '拍拍ㄆㄥ胚', TO_DATE('20170930', 'YYYY-MM-DD'), 'OFF');
 INSERT INTO ARTICLE (Article_No, Rtr_No, Article_body, Post_date, Article_State)
