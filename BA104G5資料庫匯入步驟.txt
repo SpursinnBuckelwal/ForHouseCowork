@@ -1,0 +1,14 @@
+﻿1. 先修改原資料庫檔案的大小
+   <在 Oracle 的 SQL Command Line> 執行下列指令
+   ALTER DATABASE DATAFILE 'C:\oraclexe\app\oracle\oradata\XE\SYSTEM.DBF' RESIZE 8192M;
+
+
+2. 匯入子楷的資料庫檔 BA104.DMP
+   <在 Windows 的命令提示字元> 執行下列指令
+   imp system/system@xe
+
+============================================
+語法:imp system/用戶密碼@資料庫名稱
+============================================
+
+
